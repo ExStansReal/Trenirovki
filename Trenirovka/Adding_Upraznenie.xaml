@@ -22,15 +22,15 @@
                     Foreground="#FF3A3A3A" BorderBrush="#FFC3B08E"  HorizontalAlignment="Left" 
                     VerticalAlignment="Top" Width="47" Height="20" FontSize="12" Click="Button_Click_1" Margin="676,5,0,0"  />
                 <TextBlock FontSize="24" TextAlignment="Center"  HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Введите название упражнения" VerticalAlignment="Top"/>
-                <TextBox x:Name="name" TextAlignment="Justify" FontSize="15" HorizontalAlignment="Left" Height="57" Margin="10,47,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="335" RenderTransformOrigin="-0.131,0.484"/>
+                <TextBox x:Name="name" TextAlignment="Justify" FontSize="15" HorizontalAlignment="Left" Height="57" Margin="10,47,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="785" RenderTransformOrigin="-0.131,0.484"/>
                 <TextBlock FontSize="24" TextAlignment="Center"  HorizontalAlignment="Left" Margin="10,109,0,0" TextWrapping="Wrap" Text="Введите описание упражнения" VerticalAlignment="Top"/>
-                <TextBox x:Name="opisanie" TextAlignment="Justify" FontSize="15" HorizontalAlignment="Left" Height="89" Margin="10,146,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="507" RenderTransformOrigin="-0.131,0.484"/>
+                <TextBox x:Name="opisanie" TextAlignment="Justify" FontSize="15" HorizontalAlignment="Left" Height="89" Margin="10,146,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="785" RenderTransformOrigin="-0.131,0.484"/>
                 <TextBlock FontSize="24" TextAlignment="Center"  HorizontalAlignment="Left" Margin="10,240,0,0" TextWrapping="Wrap" Text="Колличество повторений за 1 подход" VerticalAlignment="Top"/>
                 <TextBox x:Name="kol" PreviewTextInput="TextBox_PreviewTextInput"  TextAlignment="Justify" FontSize="15" HorizontalAlignment="Left" Height="31" Margin="10,277,0,0" TextWrapping="Wrap" MaxLength="2" Text="" VerticalAlignment="Top" Width="153" RenderTransformOrigin="-0.131,0.484"/>
                 <TextBlock FontSize="24" TextAlignment="Center"  HorizontalAlignment="Left" Margin="10,313,0,0" TextWrapping="Wrap" Text="Как выполнять данное упражнение" VerticalAlignment="Top"/>
-                <TextBox x:Name="how" TextAlignment="Justify" FontSize="15" HorizontalAlignment="Left" Height="89" Margin="10,350,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="507" RenderTransformOrigin="-0.131,0.484"/>
+                <TextBox x:Name="how" TextAlignment="Justify" FontSize="15" HorizontalAlignment="Left" Height="89" Margin="10,350,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="785" RenderTransformOrigin="-0.131,0.484"/>
                 <TextBlock FontSize="24" TextAlignment="Center"  HorizontalAlignment="Left" Margin="10,444,0,0" TextWrapping="Wrap" Text="Интернет ссылка на картинку (не обязательно)" VerticalAlignment="Top"/>
-                <TextBox x:Name="ssilka" TextAlignment="Justify" FontSize="15" HorizontalAlignment="Left" Height="57" Margin="10,476,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="335" RenderTransformOrigin="-0.131,0.484"/>
+                <TextBox x:Name="ssilka" TextAlignment="Justify" FontSize="15" HorizontalAlignment="Left" Height="57" Margin="10,476,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="785" RenderTransformOrigin="-0.131,0.484"/>
                 <Button Content="Вернуться" Background="#FFC3B08E" 
                     Foreground="#FF3A3A3A" BorderBrush="#FFC3B08E"  HorizontalAlignment="Left" 
                     VerticalAlignment="Top" Width="94" Height="37" FontSize="12" Click="Button_Click_2" Margin="183,560,0,0" />

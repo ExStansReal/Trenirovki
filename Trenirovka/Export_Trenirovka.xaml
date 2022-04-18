@@ -17,14 +17,14 @@
                 <Button Content="¯¯" Background="#FFC3B08E" 
                     Foreground="#FF3A3A3A" BorderBrush="#FFC3B08E"  HorizontalAlignment="Left" 
                     VerticalAlignment="Bottom" Width="47" Height="20" FontSize="12" Click="Button_Click_1" Margin="679,0,0,432"  />
-                <TextBlock TextAlignment="Center" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="Название тренировки:" VerticalAlignment="Top" Style="{DynamicResource MaterialDesignBody1TextBlock}"/>
+                <TextBlock TextAlignment="Center" HorizontalAlignment="Left"  TextWrapping="Wrap" Text="Название тренировки:" VerticalAlignment="Top" Style="{DynamicResource MaterialDesignBody1TextBlock}" Margin="10,10,0,0"/>
                 <TextBox x:Name="name" FontSize="24" HorizontalAlignment="Left" TextAlignment="Justify" Height="40" Margin="10,39,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="785"/>
-                <TextBlock HorizontalAlignment="Center"  TextWrapping="Wrap" Text="Описание: " VerticalAlignment="Top" Style="{DynamicResource MaterialDesignBody1TextBlock}" Margin="320,84,318,0" Width="167" TextAlignment="Center"/>
+                <TextBlock HorizontalAlignment="Left"  TextWrapping="Wrap" Text="Описание: " VerticalAlignment="Top" Style="{DynamicResource MaterialDesignBody1TextBlock}" Margin="10,89,628,0" Width="167" TextAlignment="Left"/>
                 <TextBox x:Name="opisanie" FontSize="24" HorizontalAlignment="Left" TextAlignment="Justify" Height="83" Margin="10,118,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="785"/>
                 <Button Content="Экспорт тренировки в общий доступ" Background="#FFC3B08E" 
                     Foreground="#FF3A3A3A" BorderBrush="#FFC3B08E"  HorizontalAlignment="Left" 
                     VerticalAlignment="Top" Width="294" Height="37"  Click="Button_Click_2" Margin="10,408,0,0" />
-                <Button Content="Назад" Background="#FFC3B08E" 
+                <Button Content="Вернуться" Background="#FFC3B08E" 
                     Foreground="#FF3A3A3A" BorderBrush="#FFC3B08E"  HorizontalAlignment="Left" 
                     VerticalAlignment="Top" Width="80" Height="37"  Click="Button_Click_3" Margin="309,408,0,0" />
 

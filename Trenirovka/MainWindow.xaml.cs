@@ -125,7 +125,7 @@ namespace Trenirovka
             //AllTrenirovki
 
             Vsse_Treni.Clear();
-            
+            AllTrenirovki.ItemsSource = null;
             FirebaseResponse resAB = client.Get($"ExportedTrenirovku/");
             Dictionary<string, LichnieTrenirovki> dataAB = JsonConvert.DeserializeObject<Dictionary<string, LichnieTrenirovki>>(resAB.Body.ToString());
             if (dataAB != null)
