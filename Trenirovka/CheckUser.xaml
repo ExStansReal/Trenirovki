@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Trenirovka"
         mc:Ignorable="d"
         Title="Приложение для тренировок" Height="450" Width="800" Background="Transparent" WindowStyle="None" Loaded="Window_Loaded">
-    <Border  Background="Wheat" CornerRadius="20"  >
+    <Border  Background="Wheat" BorderBrush="#FFC3B08E" BorderThickness="2"  >
         <Grid Mouse.MouseDown="Border_MouseDown">
 
             <Grid.RowDefinitions>

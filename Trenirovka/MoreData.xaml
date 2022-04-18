@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Trenirovka"
         mc:Ignorable="d"
         Title="MoreData" Height="667" Width="1128" Background="Transparent" WindowStyle="None" ResizeMode="CanResizeWithGrip">
-    <Border  Background="Wheat" CornerRadius="20"   >
+    <Border  Background="Wheat" BorderBrush="#FFC3B08E" BorderThickness="2"   >
         <Grid MouseDown="Grid_MouseDown">
             <Grid.RowDefinitions>
                 <RowDefinition Height="45*"/>

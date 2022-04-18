@@ -9,7 +9,7 @@
         WindowStyle="None" Height="456" Width="805" ResizeMode="NoResize" Loaded="Window_Loaded">
     <Grid MouseDown="Grid_MouseDown" Margin="0,21,0,0">
 
-        <Border  Background="Wheat" CornerRadius="20" Margin="0,-20,0,0" >
+        <Border  Background="Wheat" BorderBrush="#FFC3B08E" BorderThickness="2" Margin="0,-20,0,0" >
             <Grid>
                 <Button Content="X" Background="#FFC3B08E" 
                     Foreground="#FF3A3A3A" BorderBrush="#FFC3B08E"  HorizontalAlignment="Left" 

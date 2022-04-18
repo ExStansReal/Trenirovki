@@ -272,9 +272,9 @@
         </Style>
     </Window.Resources>
 
-    <Grid MouseDown="Grid_MouseDown" Margin="0,21,0,0">
+    <Grid MouseDown="Grid_MouseDown" Margin="0,21,0,0" Background="Transparent" >
 
-        <Border  Background="Wheat" CornerRadius="20" Margin="0,-20,0,0" >
+        <Border  Background="Wheat" BorderBrush="#FFC3B08E" BorderThickness="2" Margin="0,-20,0,0" >
 
             <TabControl  Height="420" VerticalAlignment="Top" Width="792" Foreground="{x:Null}" BorderBrush="{x:Null}" Margin="6,26,7,0" Background="{x:Null}" Style="{DynamicResource TabControlStyle1}" >
                 <TabItem Header="Тренировки приложения"    >
